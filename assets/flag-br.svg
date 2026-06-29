@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 147" role="img" aria-label="Bandeira do Brasil">
+  <title>Brasil</title>
+  <!-- Fundo verde -->
+  <rect width="210" height="147" fill="#009C3B"></rect>
+  <!-- Losango amarelo -->
+  <polygon points="105,18 180,73.5 105,129 30,73.5" fill="#FFDF00"></polygon>
+  <!-- Disco azul -->
+  <defs>
+    <clipPath id="br-disc-clip">
+      <circle cx="105" cy="73.5" r="42"></circle>
+    </clipPath>
+  </defs>
+  <circle cx="105" cy="73.5" r="42" fill="#002776"></circle>
+  <!-- Faixa branca (simplificada), recortada ao disco -->
+  <g clip-path="url(#br-disc-clip)">
+    <path d="M10,90 C60,50 150,100 200,60" fill="none" stroke="#FFFFFF" stroke-width="10"></path>
+  </g>
+</svg>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato – Rodrigo Soria</title>
+  <meta name="description"
+    content="Entre em contato com Rodrigo Soria para agendar sessões online ou presenciais na Irlanda — cura xamânica, jornadas, resgate da alma, alinhamento de chakras, banho de som e aconselhamento espiritual." />
+  <meta name="theme-color" content="#0b1c2a">
+  <meta name="msvalidate.01" content="5084B64AEBD8C738B32739F185B3AA84" />
+  <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="48x48" href="/assets/favicon-48x48.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/assets/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="/assets/android-chrome-512x512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="alternate" href="https://rodrigosoria.eu/contact.html" hreflang="en" />
+  <link rel="alternate" href="https://rodrigosoria.eu/pt-br/contact.html" hreflang="pt-BR" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" crossorigin>
+  <link rel="stylesheet" href="../style/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container nav">
+      <a class="brand" href="index.html" aria-label="Início">
+        <span class="mark" aria-hidden="true"></span>
+        <b>Rodrigo&nbsp;Soria</b>
+      </a>
+      <button class="nav-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <a href="index.html">Início</a>
+        <a href="services.html">Serviços</a>
+        <a href="about.html">Sobre</a>
+        <a href="contact.html">Contato</a>
+        <span class="lang-divider"></span>
+        <a href="../contact.html" title="English" class="flag-link">
+          <img src="../assets/flag-uk.svg" alt="English" class="flag">
+        </a>
+        <a href="contact.html" title="Português (Brasil)" class="flag-link">
+          <img src="../assets/flag-br.svg" alt="Português (Brasil)" class="flag">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="hero" id="top">
+    <div class="container grid cols-2-eq">
+      <section class="panel">
+        <p class="eyebrow">Contato</p>
+        <h1>Agende uma Sessão ou Tire uma Dúvida</h1>
+        <p class="lead">Use o formulário abaixo para solicitar um agendamento ou fazer uma consulta.</p>
+
+        <form id="contactForm" action="https://formspree.io/f/xdkwkrjz" method="POST" novalidate>
+          <div class="row cols-2">
+            <div>
+              <label for="name">Nome</label>
+              <input id="name" name="name" type="text" placeholder="Seu nome completo" required />
+            </div>
+            <div>
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" placeholder="voce@exemplo.com" required />
+            </div>
+          </div>
+
+          <div class="row cols-2">
+            <div>
+              <label for="phone">Telefone (opcional)</label>
+              <input id="phone" name="phone" type="tel" placeholder="+353 …" />
+            </div>
+            <div>
+              <label for="service">Serviço</label>
+              <select id="service" name="service" required>
+                <option value="">Selecione um serviço…</option>
+                <option value="discovery-call">Conversa Inicial Gratuita (20 min)</option>
+                <option value="reconexao-expansao">Jornada de Reconexão &amp; Expansão da Consciência (Programa)
+                </option>
+                <option value="transpersonal-therapy">Terapia Transpessoal</option>
+                <option value="shamanic-counseling">Aconselhamento Xamânico</option>
+                <option value="sound-bath">Banho de Som</option>
+                <option value="shamanic-healing">Cura Xamânica</option>
+                <option value="other">Outro / Consulta Geral</option>
+              </select>
+            </div>
+          </div>
+
+          <div>
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" required
+              placeholder="Com o que você gostaria de ser apoiado? Qualquer contexto relevante"></textarea>
+          </div>
+
+          <div class="panel" style="margin:16px 0 22px">
+            <span class="badge">Formulário prévio</span>
+            <p class="muted" style="margin-top:8px">Agendando <strong>Aconselhamento Xamânico</strong>? Por favor,
+              preencha também este breve formulário (crenças/experiência espiritual, intenção e quaisquer
+              <strong>alergias, limitações ou condições específicas</strong>).</p>
+            <p class="muted" style="font-size:13px;margin-top:4px">Interessado na <strong>Jornada de Reconexão &amp;
+                Expansão da Consciência</strong>? Uma conversa inicial gratuita de 20 minutos é necessária antes do
+              agendamento — selecione acima ou mencione na sua mensagem.</p>
+            <p><a class="cta" href="https://forms.gle/Twfb6s3xZhP8K8kCA" target="_blank" rel="noopener">Abrir formulário
+                prévio</a></p>
+          </div>
+
+          <!-- honeypot anti-spam -->
+          <input type="text" name="_gotcha" style="display:none">
+
+          <div>
+            <label for="consent" class="note"><input id="consent" type="checkbox" required /> Consinto em ser
+              contatado(a) em relação à minha solicitação e entendo que estes serviços são de natureza complementar e
+              educativa e não substituem cuidados médicos ou psicológicos.</label>
+          </div>
+
+          <button class="cta" type="submit" id="submitBtn">Enviar</button>
+        </form>
+
+        <p class="note" style="margin-top:16px">Os dados são utilizados exclusivamente para responder à sua solicitação
+          e agendar sessões. Você pode solicitar a exclusão a qualquer momento.</p>
+      </section>
+
+      <aside class="panel">
+        <h2>Contato direto</h2>
+        <p class="muted">Sessões online e presenciais mediante agendamento (Irlanda).</p>
+        <p class="muted">Atendimentos em português e inglês.</p>
+
+        <hr style="border:none;border-top:1px dotted rgba(230,208,163,.35);margin:18px 0">
+
+        <h3>O que esperar</h3>
+        <ul class="muted" style="padding-left:18px;margin:0">
+          <li style="margin:6px 0">Cuidado fundamentado, respeitoso e com consciência do trauma.</li>
+          <li style="margin:6px 0">Limites claros, consentimento e tempo de integração ao final de cada sessão.</li>
+          <li style="margin:6px 0">Para serviços avançados, um breve formulário prévio ajuda a personalizar o trabalho.
+          </li>
+        </ul>
+
+        <hr style="border:none;border-top:1px dotted rgba(230,208,163,.35);margin:18px 0">
+
+        <h3>Cancelamento</h3>
+        <p class="muted">A vida acontece — se precisar reagendar, por favor avise com pelo menos 24 horas de
+          antecedência.</p>
+      </aside>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <small>© <span id="y"></span> Rodrigo Soria. Todos os direitos reservados.</small>
+    </div>
+  </footer>
+  <script src="../scripts/scripts.js"></script>
+</body>
+
+</html>

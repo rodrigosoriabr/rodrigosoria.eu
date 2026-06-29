@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 30" role="img" aria-label="United Kingdom flag">
+  <title>United Kingdom</title>
+  <rect width="60" height="30" fill="#012169"></rect>
+  <!-- Diagonais brancas -->
+  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#FFFFFF" stroke-width="6"></path>
+  <!-- Diagonais vermelhas -->
+  <path d="M0,0 L60,30 M60,0 L0,30" stroke="#C8102E" stroke-width="4"></path>
+  <!-- Cruz branca -->
+  <rect x="25" y="0" width="10" height="30" fill="#FFFFFF"></rect>
+  <rect x="0" y="10" width="60" height="10" fill="#FFFFFF"></rect>
+  <!-- Cruz vermelha -->
+  <rect x="26" y="0" width="8" height="30" fill="#C8102E"></rect>
+  <rect x="0" y="11" width="60" height="8" fill="#C8102E"></rect>
+</svg>

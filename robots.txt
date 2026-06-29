@@ -1,0 +1,21 @@
+# ============================================
+# robots.txt – Rodrigo Soria
+# SEO otimizado para Google, Bing e multilinguagem
+# ============================================
+
+User-agent: *
+Allow: /
+
+# Evitar indexação de URLs com parâmetros vazios
+Disallow: /*?$
+
+# Sitemaps principais
+Sitemap: https://rodrigosoria.eu/sitemap.xml
+Sitemap: https://www.rodrigosoria.eu/sitemap.xml
+
+# ============================================
+# Notas:
+# - CSS, JS e assets não são bloqueados (melhor para Bing)
+# - Todas as páginas e linguagens estão liberadas
+# - Google e Bing conseguem renderizar a página completa
+# ============================================
