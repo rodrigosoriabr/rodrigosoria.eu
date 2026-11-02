@@ -743,3 +743,42 @@ nav .flag-link {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+/* Used by the contact form (consent label, data note) and the calendar page; were never defined before 02/11/2026. */
+.note {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.cal-wrapper {
+  width: 100%;
+  min-height: 700px;
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #fff;
+}
+
+footer a {
+  color: var(--muted);
+}
+
+footer a:hover {
+  color: var(--gold);
+}
+
+/* Policies page */
+.policies h2 {
+  margin-top: 36px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border25);
+}
+
+.policies h2:first-of-type {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.policies ul {
+  color: var(--muted);
+}
